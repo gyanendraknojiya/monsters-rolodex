@@ -8,7 +8,8 @@ function Card(props) {
         src={"https://robohash.org/" + props.monsters.id + "?set=set2"}
         alt=""
       />
-      <h1>{props.monsters.name}</h1>
+      <h2>{props.monsters.name}</h2>
+      <p>{props.monsters.email}</p>
     </div>
   );
 }
