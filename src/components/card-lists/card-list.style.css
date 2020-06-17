@@ -1,7 +1,24 @@
 .cardlist{
-    width: 80vw;
     margin: 0 auto;
+    width: 85vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    text-align: center;
 }   
+@media screen and (max-width: 1100px) {
+    .cardlist{
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+}
+@media screen and (max-width: 900px) {
+    .cardlist{
+        grid-template-columns: 1fr 1fr  ;
+    }   
+}
+@media screen and (max-width: 600px) {
+    .cardlist{   
+    width: 70vw;
+        grid-template-columns: 1fr  ;
+    }   
+}
